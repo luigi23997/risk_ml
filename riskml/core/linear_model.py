@@ -1,14 +1,5 @@
 """
 Linear model utilities.
-
-Provides numerically stable implementations of linear regression
-for use in time series models (e.g., AR) and future ML modules.
-
-Design principles:
-- Never use explicit matrix inversion
-- Prefer least-squares or QR-based solutions
-- Strict input validation
-- Reusable across the entire library
 """
 
 from __future__ import annotations
